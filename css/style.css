@@ -6,6 +6,10 @@
     font-family: 'Rubik Mono One', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /* generali */
 .red{
     background-color: #FF0000;
@@ -27,7 +31,31 @@
     color: #008000;
 }
 /* header */
+nav{
+    z-index: 2;
+    position: fixed;
+    top: 30px;
+    right: 10px;
+}
 
+ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+a{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0 15px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 50%;
+    color: black;
+    background-color: white;
+    line-height: 50px;
+
+}
 /* main */
 .screen{
     width: 100%;
